@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## View Live App
+
+This Build is hosted on firebase. [Go To App](https://clone-9fd28.web.app).
+
 ## Available Scripts
 
 In the project directory, you can run:
