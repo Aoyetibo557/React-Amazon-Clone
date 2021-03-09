@@ -1,0 +1,51 @@
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.empty__details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.details__icons{
+    font-size: 35vw;
+    opacity: 0.6;
+}
+
+.details__p{
+    font-weight: 500;
+    font-size: 2.4vw;
+    text-transform: uppercase;
+}
+
+.details__btn{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8vw;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #afcd42;
+    color: #444;
+    border: none;
+    cursor: pointer;
+}
+.details__btn:hover{
+    transform: scale(1.05);
+    transition: 0.5s all ease-in-out;
+}
+
+.details__recommendation{
+    margin: 15px;
+}
+.details__recommendation > h4{
+    font-weight: 400;
+    font-size: 1.9vw;
+}
+.recommendation{
+    display: flex;
+}

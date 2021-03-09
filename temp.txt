@@ -1,0 +1,37 @@
+*Context API(React)
+*Firebase: user authentication, database and Hosting
+*React Router
+
+------Steps
+-> Clean up
+-> Firebase Setup project
+-> Install react Router
+-> Build Navbar
+
+for caraousel
+npm install react-elastic-carousel
+
+For currency format
+npm install react-currency-format
+
+{/* 
+    other image links for paralax
+    https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/Nzg3NzIxZDct/Nzg3NzIxZDct-MGZkMGRhODAt-w1242._CB412119038_SY300_.jpg
+    https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2021/Other/RB-3533_SVOD_Jan_DiamondFallback/GW_MobileHero_3P_ENG_RB-3533_SVOD_Jan_DiamondFallback_v2_1242x450._CB661988673_SY300_.jpg
+    https://images-na.ssl-images-amazon.com/images/G/01/audible/A4-1000_UseCase_GatewayMobile_1242x450_English._CB406069716_SY300_.jpg
+   
+    https://images-na.ssl-images-amazon.com/images/G/01/AmazonMusic/2020/RedHood/GatewayTest/US-EN_080320_RedHood_ACQ_GW-Hero_M_1242x450_CV10._CB403907331_SY300_.jpg
+    https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2020/MADE_FOR_YOU/GW/RHAP_MOB_HERO_W_2._CB416867549_SY300_.jpg
+    https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/Brand/JD/2021/Jan_default_onsite/XCM_Manual_1302634-gw_mob-control-en-1242x450_e52afa0b-d435-4f51-85cb-85af81e89025._CB411324018_SY300_.png
+*/}
+
+another way to dispplay rating
+{/* {
+    Array(rating)
+    .fill()
+    .map((_) =>(
+    <span>⭐</span>
+ ))
+} */}
+
+Context API, is a like creating global variable that can be used or passed around in a react app, instead of passing props from grandparents to parent to chil and so on, which would result in prop drilling.
