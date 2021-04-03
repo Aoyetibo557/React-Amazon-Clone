@@ -78,3 +78,54 @@ button >a {
     display: flex;
     flex-direction: column;
 }
+
+.size__hide{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    ._checkout__emptyCart{
+        width: 100%;
+
+    }
+    ._checkout__emptyCart > img{
+        width: 50%;
+    }
+
+    ._checkout__userButtons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ._checkout__btnOne,
+    ._checkout__btnTwo{
+        width: 300px;
+    }
+
+    ._checkout__items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    ._checkout__right{
+       display: none;
+    }
+    
+    ._checkout__ad{
+        width: 90%;
+        height: 180px;
+        margin: 0;
+    }
+
+    ._checkout__title{
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .size__hide{
+        display: inline-flex;
+    }
+}

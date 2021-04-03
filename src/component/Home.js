@@ -9,19 +9,18 @@ import Tiles from './Tiles';
 function Home() {
     const [state, setState] = useState(false);
     return (
-           <div className="_home__caraousel">
+           <div>
             {state === false ? (
                 <video className="home__video" onEnded = {() => setState(true)} autoPlay muted typeof="video/mp4" preload="auto" tabIndex="-1" playsInline="playsinline" >
                     <source src="https://m.media-amazon.com/images/I/A1F8Nc3MFHL.mp4" />
                 </video>
             ):(
-                <Carousel 
+                <Carousel className="_home__caraousel"
                     isLTR='true'
                     transitionMs='500'
                     easing="ease"
                     enableMouseSwipe='false'
                     enableAutoPlay autoPlaySpeed={2000}
-                    className="_home__caraousel"
                 >
                 
                     <img className="home__image" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2020/Other/The_Final_1500x300_start_STATIC_EN_hero._CB658971111_.jpg" />
@@ -77,7 +76,7 @@ function Home() {
                 
                 <Product 
                     id={115}
-                    title="Infinity Cube Fidget Toy, Sensory Tool EDC Fidgeting Game for Kids and Adults, Cool Mini Gadget Best for Stress and Anxiety Relief and Kill Time, Unique Idea that is Light on the Fingers and Hands" 
+                    title="Infinity Cube Fidget Toy, Sensory Tool EDC Fidgeting Game for Kids and Adults, Unique Idea that is Light on the Fingers and Hands" 
                     rating={4}  
                     price={9.95} 
                     image="https://images-na.ssl-images-amazon.com/images/I/41fsMxk8apL._AC_SY400_.jpg"

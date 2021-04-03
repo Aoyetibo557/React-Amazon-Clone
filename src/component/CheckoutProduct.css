@@ -34,3 +34,27 @@
 ._checkoutPrioduct__rating{
     display: flex;
 }
+
+@media only screen and (max-width: 768px){
+  ._chekouProduct{
+      width: 95%;
+      margin: 5px;
+      padding: 10px;
+      background-color: white;
+    }
+
+    ._checkoutProduct__image{
+        width: 100px;
+    }
+
+    ._checkoutProduct__title{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    ._checkoutProduct__btn{
+        width: 50%;
+        padding: 8px;
+        font-size: 15px;
+    }
+}

@@ -25,7 +25,7 @@ function DetailsProduct({id, title, price, rating, image}) {
         <div className="_detailProduct">
             <div className="_detailProduct__top">
                 <div>
-                <img className="_detailProduct__image" src={image} alt="" />
+                    <img className="_detailProduct__image" src={image} alt="" />
                 </div>
                 <div className="_detailProduct__info">
                     <p className="_detailProduct__title" >{title}</p>

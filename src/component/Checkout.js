@@ -30,11 +30,15 @@ function Checkout() {
                 </div>
             ) : (
                 <div className="_checkout__items">
-                     <img 
-                    className="_checkout__ad"  
-                    src="https://images-na.ssl-images-amazon.com/images/G/01/slsm/slsm_header-mobile_01_750x280_v4.png" 
-                    alt="Amazon Ad"
-                />
+                    <img 
+                        className="_checkout__ad"  
+                        src="https://images-na.ssl-images-amazon.com/images/G/01/slsm/slsm_header-mobile_01_750x280_v4.png" 
+                        alt="Amazon Ad"
+                    />
+
+                    <div className="size__hide">
+                        <Subtotal />
+                    </div>
 
                     <h2 className="_checkout__title">Your Cart  ({basket?.length})</h2>
                     {basket.map((item) => (
